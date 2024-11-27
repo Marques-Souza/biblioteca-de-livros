@@ -17,10 +17,10 @@ export const environment = {
   production: false,
   apiUrl: 'http://localhost:5000/api'};
 
+# Para rodar a API .NET localmente, use: dotnet run
+
 2. Verifique a API Backend
 Certifique-se de que a API .NET está rodando corretamente no servidor. Geralmente, a URL da API será algo como http://localhost:5000/, mas isso pode variar conforme a configuração da API.
-
-# Para rodar a API .NET localmente, use: dotnet run
 
 
 3. Comunicação com a API
