@@ -1,6 +1,6 @@
 # EmprestimoLivroFrontend
 
-Este projeto foi gerado com o Angular CLI versão 17.3.11. Ele é a parte frontend de um sistema de Empréstimo de Livros, que se comunica com uma API .NET para gerenciar dados de empréstimos, livros e usuários.
+Este projeto foi gerado com o Angular CLI versão 17.3.11. Ele é a parte frontend de um sistema de Empréstimo de Livros, que se comunica com uma API .NET para gerenciar dados de empréstimos, livros e clientes (usuários).
 
 ## Development server
 
