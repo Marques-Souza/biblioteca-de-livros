@@ -11,7 +11,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 Este projeto depende de uma API .NET para funcionar corretamente. Para garantir que o frontend se conecte corretamente com a API, siga os passos abaixo:
 
 1. Configure a URL da API
-No arquivo de ambiente src/environments/environment.ts (para desenvolvimento) ou src/environments/environment.prod.ts (para produção), defina a URL base da API. Exemplo:
+No arquivo de ambiente src/environments/environment.ts (para desenvolvimento) ou src/environments/environment.prod.ts (para production), defina a URL base da API. Exemplo:
 
 export const environment = {
   production: false,
@@ -19,6 +19,9 @@ export const environment = {
 
 2. Verifique a API Backend
 Certifique-se de que a API .NET está rodando corretamente no servidor. Geralmente, a URL da API será algo como http://localhost:5000/, mas isso pode variar conforme a configuração da API.
+
+# Para rodar a API .NET localmente, use:
+dotnet run
 
 3. Comunicação com a API
 O frontend se comunica com a API utilizando o Angular HTTP Client. Exemplo de como buscar dados da API:
